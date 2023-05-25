@@ -79,8 +79,8 @@
 import columns from '../mocks/columns.json';
 import users from '../mocks/users.json';
 import rawTasks from '../mocks/tasks.json';
-import { normalizeTask, getTagsArrayFromString } from '../mocks/common/helpers';
-import { STATUSES } from '../mocks/common/constants';
+import { normalizeTask, getTagsArrayFromString } from '../common/helpers';
+import { STATUSES } from '../common/constants';
 
 const getImage = image => {
     // https://vitejs.dev/guide/assets.html#new-url-url-import-meta-url
