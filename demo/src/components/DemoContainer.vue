@@ -3,7 +3,7 @@
     <router-link class="link" to="/">В меню</router-link>
   </div>
   <div class="container">
-    <slot />
+    <slot></slot>
   </div>
 </template>
 
